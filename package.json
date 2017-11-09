@@ -1,6 +1,6 @@
 {
   "name": "dncli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CLI to browse designernews.co",
   "license": "MIT",
   "bin": {
@@ -25,6 +25,7 @@
     "reader",
     "app"
   ],
+  "preferGlobal": "true",
   "dependencies": {
     "chalk": "^2.3.0",
     "inquirer": "^3.3.0",
