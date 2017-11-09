@@ -1,14 +1,30 @@
 {
   "name": "dncli",
   "version": "0.0.1",
-  "description": "",
+  "description": "CLI to browse designernews.co",
+  "license": "MIT",
+  "bin": {
+    "dncli": "bin.js"
+  },
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Edgard Kozlowski",
+    "email": "hello@edkf.com.br",
+    "url": "edkf.com.br"
+  },
+  "keywords": [
+    "cli",
+    "dn",
+    "designer",
+    "news",
+    "feed",
+    "rss",
+    "reader",
+    "app"
+  ],
   "dependencies": {
     "chalk": "^2.3.0",
     "inquirer": "^3.3.0",
