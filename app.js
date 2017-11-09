@@ -51,7 +51,7 @@ scrapeIt(
 		inquirer.prompt([storiesQuestions]).then(function (answer) {
 			for (let i = 0; i < data.stories.length; i++) {
 				if (data.stories[i].id === answer.selectedStorie) {
-					openurl.open(data.stories[i].url)
+					openurl.open(data.stories[i].url.includes('http') ? data.stories[i].url : 'https://www.designernews.co' + data.stories[i].url)
 				}
 			}
 		})
