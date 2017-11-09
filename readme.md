@@ -2,7 +2,7 @@
 > 📰 CLI to browse designernews.co
 
 <br>
-<p align="center"><img src="dncli-screenshot.jpg" width="957" height="621"></p>
+<p align="center"><img src="dncli-screenshot.jpg" width="750" height="495"></p>
 <br>
 
 
