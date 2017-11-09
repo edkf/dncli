@@ -5,10 +5,6 @@ const inquirer = require("inquirer")
 const openurl = require('openurl')
 const chalk = require('chalk')
 
-// src
-const parseName = require('./src/parseName.js')
-const parseBadge = require('./src/parseBadge.js')
-
 // Start the code here
 
 const dncli = () => {
