@@ -1,0 +1,19 @@
+{
+  "name": "designernews-cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "openurl": "^1.1.1",
+    "scraperjs": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
