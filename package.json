@@ -10,9 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^2.3.0",
+    "inquirer": "^3.3.0",
     "node-bash-title": "0.0.2",
     "openurl": "^1.1.1",
-    "scraperjs": "^1.2.0"
+    "scrape-it": "^4.0.0"
   },
   "devDependencies": {
     "nodemon": "^1.12.1"
