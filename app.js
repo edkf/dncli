@@ -14,7 +14,7 @@ const parseBadge = require('./src/parseBadge.js')
 setTitle('📰 dncli - CLI to browse designernews.co')
 
 scrapeIt(
-	'https://www.designernews.co'
+	process.argv[2] ? `https://www.designernews.co/badges/${process.argv[2]}` : 'https://www.designernews.co'
 	, {
 	stories: {
 		listItem: '.montana-list-item',
