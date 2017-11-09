@@ -18,3 +18,11 @@ $ npm install -g dncli
 ```
 $ dncli
 ```
+
+### List stories by badges
+
+```
+$ dncli apple
+```
+
+Avaliable badges: `apple`, `ask`, `ama`, `css`, `discussion`, `podcast`, `show`, `design`, `type`, `video`.
