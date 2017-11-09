@@ -45,7 +45,7 @@ const dncli = () => {
 				pageSize: 30,
 				choices: data.stories.map(item => {
 					return {
-						name: `${chalk.green('▴')} ${chalk.gray(`${ ('0' + Number(item.upvotes)).slice(-2)} |`)} ${item.title} ${chalk.gray(`- by ${item.from} (${item.timeAgo})`)}`,
+						name: `${chalk.green('▴')} ${chalk.gray(`${ ('0' + Number(item.upvotes)).slice(-2)} |`)} ${ item.title.length > 80 ? item.title.substring(0, 80) + '...' : item.title} ${chalk.gray(`by ${item.from} (${item.timeAgo})`)}`,
 						value: item.id
 					}
 				})
